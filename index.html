@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>VirtualEvent</title>
+    <style>body { margin: 0; }</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- Start of  Zendesk Widget script -->
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=c235c8ba-475b-4f6d-8a10-482dda7dfe84"> </script>
+    <!-- End of  Zendesk Widget script -->
+  </head>
+  <body>
+    <!-- Attachment point for your app -->
+    <div id="container"></div>
+    <script src="./client.bundle.js"></script>
+    <script>
+      // Initialize the React 360 application
+      React360.init(
+        'index.bundle.js',
+        document.getElementById('container'),
+        {
+          assetRoot: 'static_assets/',
+        }
+      );
+    </script>
+  </body>
+</html>
+
